@@ -1,0 +1,57 @@
+.main-footer{
+    position: relative;
+    padding: 3em 0px;
+    background: #213341;
+    padding-bottom: 1em;
+    padding-top: 4em;
+}
+.logo-swiper-wrapper{
+    margin-bottom: 5em;
+}
+.ft-logo{
+    display: inline-block;
+    margin-bottom: 2em;
+}
+.ft-para{
+    font-size: 16px;
+    color: white;
+    line-height: 140%;
+    margin-bottom: 0;
+}
+.ft-head{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+.ft-list{
+    position: relative;
+    margin-top: 1.2em;
+    margin-bottom: 1.5em !important;
+
+    li{
+
+        a{
+            display: inline-block;
+            color: white;
+            font-weight: 400;
+            font-size: 16px;
+            padding: 5px 0px;
+        }
+    }
+}
+.sc-list{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.ft-btm{
+    position: relative;
+    margin-top: 5em;
+
+    p{
+        text-align: center;
+        font-size: 14px;
+        color: #DDDDDD;
+    }
+}

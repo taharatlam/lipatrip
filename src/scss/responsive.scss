@@ -1,0 +1,63 @@
+@media (max-width: 600px) {
+    .green-con{
+        padding-top: 0 !important;
+    }
+}
+@media(min-width: 991px){
+    .menu-btn{
+        display: none;
+    }
+}
+@media(max-width: 991px){
+    .banner-swiper-wrapper .swiper{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .travel-sec{
+        margin-top: -50px;
+    }
+    .logo-swiper-wrapper{
+        margin-bottom: 3em;
+    }
+    .test-sec {
+
+        >img{
+            display: none !important;
+        }
+    }
+    .ev-wr{
+
+        &:after{
+            display: none;
+        }
+    }
+    .ev-card-sec{
+        background: #FAFDFF;
+    }
+}
+@media(max-width: 600px){
+    .celeb-sec{
+
+        >img{
+            display: none;
+        }
+    }
+    .sec{
+        padding: 2em 0px;
+    }
+    .sec-head.des h3{
+        font-size: 42px;
+    }
+    .sec-head h3{
+        font-size: 32px;
+    }
+    .travel-sec{
+        margin-top: 0;
+    }
+    .test-card{
+        padding: 1.5em 1em;
+    }
+    .ab-img{
+        transform: translateX(0%) translateY(3%);
+    }
+}

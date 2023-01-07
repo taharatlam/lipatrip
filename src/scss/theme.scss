@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+// font-family: 'Inter', sans-serif;
+// font-family: 'Volkhov', serif;
+// font-family: 'Rochester', cursive;
+// vars
+$green : #0E6037;
+$red : #DF6951;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+li{
+    list-style-type: none !important;
+}
+ul{
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+a{
+    text-decoration: none !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Volkhov', serif;
+}
+.para{
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.sec-head{
+    position: relative;
+
+    &.style2{
+
+        h3{
+            font-family: 'Sacramento', cursive;
+            font-size: 48px;
+            font-weight: 400 !important;
+            color: #3A556A;
+        }
+    }
+
+    &.white{
+
+        p, h3{
+            color: white !important;
+        }
+    }
+
+    p.sub{
+        margin-bottom: 5px;
+        font-family: 'Rochester', cursive;
+        font-size: 20px;
+
+        &.yellow{
+            color: #F1A501;
+        }
+    }
+
+    h3{
+        font-size: 42px;
+        color: #14183E;
+        font-weight: 800;
+    }
+
+    &.des{
+
+        h3{
+            font-family: 'Rochester', cursive;
+            font-size: 52px;
+            font: 400px;
+        }
+    }
+
+    
+}
+.sec{
+    padding: 5em 0px;
+    position: relative;
+}
+.ps-list{
+    position: relative;
+
+    li{
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 0.8em 0px;
+
+        div{
+
+            h2{
+                font-family: 'Inter', sans-serif;
+                font-size: 18px;
+                color: #5E6282;
+                margin-bottom: 5px;
+                font-weight: 700;
+            }
+            p{
+                color: #5E6282;
+                font-size: 16px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.main-btn{
+    padding: 8px 25px;
+    color: black;
+    background: #f1a501;
+    border-radius: 100px;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+    min-width: max-content;
+
+    &:hover{
+        transform: translateY(-10px);
+        color: white;
+        background: #029bc5;
+    }
+}
