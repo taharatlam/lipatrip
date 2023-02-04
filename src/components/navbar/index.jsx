@@ -5,6 +5,8 @@ import drop from '../../images/drop.svg'
 import cross from '../../images/cross.svg'
 import menu from '../../images/menu.svg'
 
+import { Link } from 'react-router-dom';
+
 import './navBar.scss'
 
 const NavBar = () => {
@@ -15,9 +17,10 @@ const NavBar = () => {
                 <div className="">
                     <div className="nav-inner">
                         <div className="l-part">
-                            <a href="javascript:void(0)" className="logo">
+                            <Link to="/" className='logo'>
                                 <img src={logo} alt="" />
-                            </a>
+                            </Link>
+                            
                             <div className="search-bar">
                                 <img src={searchIcon} alt="" />
                                 <input type="text" placeholder='Search' />
@@ -26,14 +29,14 @@ const NavBar = () => {
                         <div className="r-part">
                             <ul className="nav-list">
                                 <li>
-                                    <a href="javascript:void(0)">
-                                        Desitnations
-                                    </a>
+                                    <Link to="/searchResultPage">
+                                        Search Result
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)">
-                                        Hotels
-                                    </a>
+                                    <Link to="/holidayInner">
+                                        Inner View
+                                    </Link>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)">
